@@ -13,6 +13,15 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 
 - Login using "admin" and username and password both
 
+##### Error Handling:
+
+- If you are unable to create a VM from KVM:
+- Do this in your command line
+- ``` multipass exec maas -- sudo apt-get install cpu-checker ```
+- ``` multipass exec maas -- kvm-ok ```
+- If your results shows: "INFO: Your CPU does not support KVM extensions"
+- You need to install KVM
+
 #### Multipass commands
 
 ```multipass launch --name foo```
