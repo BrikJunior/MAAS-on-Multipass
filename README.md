@@ -13,7 +13,7 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 
 - Login using "admin" and username and password both
 
-##### Error Handling:
+### Error Handling:
 
 - If you are unable to create a VM from KVM:
 - Do this in your command line
