@@ -11,6 +11,8 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 
 ###### Copy the IP for maas and open "http://<IP>:5240/MAAS/r/machines"
 
+- Login using "admin" and username and password both
+
 #### Multipass commands
 
 ```multipass launch --name foo```
