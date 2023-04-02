@@ -21,6 +21,7 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 - ``` multipass exec maas -- kvm-ok ```
 - If your results shows: "INFO: Your CPU does not support KVM extensions"
 - You need to install KVM
+- ``` multipass exec maas -- sudo apt-get install qemu-system-x86 libvirt-daemon-system ubuntu-vm-builder bridge-utils ```
 
 #### Multipass commands
 
