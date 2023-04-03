@@ -23,6 +23,11 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 - You need to install KVM
 - ``` multipass exec maas -- sudo apt-get install qemu-system-x86 libvirt-daemon-system virtinst bridge-utils ```
 
+
+- ```multipass exec maas -- lsmod | grep kvm``` To check if there is KVM; If it returns no output follow next step
+- ```multipass exec maas -- sudo modprobe kvm```
+- ```multipass exec maas -- which kvm``` This should show where your KVM is; it should be in dev/kvm
+
 #### Multipass commands
 
 ```multipass launch --name foo```
