@@ -9,6 +9,10 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 
 ```multipass list```
 
+```mutlipass start maas```
+
+```bash kvm.sh```
+
 ###### Copy the IP for maas and open "http://_IP_:5240/MAAS/"
 
 - Login using "admin" and username and password both
