@@ -19,6 +19,8 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 
 ### Error Handling:
 
+### - Nested virtualization doesn't work on MacOS.
+
 - If you are unable to create a VM from KVM:
 > Do this in your command line
 - ``` multipass exec maas -- sudo apt-get install cpu-checker ```
