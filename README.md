@@ -1,5 +1,5 @@
 # MAAS-on-Multipass
-This is repository to learn and use Multipass, MAAS on LXD and all the commands you need
+This is repository to learn and use Multipass, MAAS using LXD.
 
 ### To get started install Multipass on MacOS
 
@@ -11,13 +11,18 @@ This is repository to learn and use Multipass, MAAS on LXD and all the commands 
 
 ```mutlipass start maas```
 
-```bash kvm.sh```
-
 ###### Copy the IP for maas and open "http://_IP_:5240/MAAS/"
 
 - Login using "admin" and username and password both
 
 ### Error Handling:
+
+If you are using MacOS then as now of now August of 23' has no KVM support. 
+Easy way to check that is by installing multipass inside of a multipass instance.
+
+Your results should look this this:
+
+<img width="414" alt="Screen Shot 2023-08-13 at 6 30 15 PM" src="https://github.com/brikjr/MAAS-on-Multipass/assets/81532347/d1e0b68a-c9b3-4817-bbdc-1acea455b2f3">
 
 ### - Nested virtualization doesn't work on MacOS.
 
