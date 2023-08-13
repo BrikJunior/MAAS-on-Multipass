@@ -26,6 +26,9 @@ Your results should look this this:
 
 ### - Nested virtualization doesn't work on MacOS.
 
+
+### - Non MacOS error handling: 
+
 - If you are unable to create a VM from KVM:
 > Do this in your command line
 - ``` multipass exec maas -- sudo apt-get install cpu-checker ```
@@ -34,7 +37,7 @@ Your results should look this this:
 - You need to install KVM
 - ``` multipass exec maas -- sudo apt-get install qemu-system-x86 libvirt-daemon-system virtinst bridge-utils ```
 
-
+- 
 - ```multipass exec maas -- lsmod | grep kvm``` 
 > To check if there is KVM; If it returns no output follow next step
 - ```multipass exec maas -- sudo modprobe kvm```
@@ -44,7 +47,7 @@ Your results should look this this:
 - ```multipass exec maas -- sudo mknod /dev/kvm c 10 232```
 - ```multipass exec maas -- ls -l /dev/kvm```
 
-#### Multipass commands
+#### Useful multipass commands
 
 ```multipass launch --name foo```
 
